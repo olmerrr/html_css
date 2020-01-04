@@ -1,0 +1,5 @@
+@media (max-with: 768px){
+  .header__text{
+    font-size: 14px;
+  }
+}
