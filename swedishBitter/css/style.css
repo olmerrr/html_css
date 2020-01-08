@@ -112,6 +112,7 @@ body{
   letter-spacing: 2px;
 }
 .top__inner-title{
+  line-height: 60px;
   font-size: 60px;
   margin-bottom: 40px;
   font-weight: 600;
@@ -157,7 +158,9 @@ body{
 .top-form input + input{
   margin-left: 30px;
 }
-
+.mobile_link-btn{
+  display: none;
+}
 .top-form input::placeholder{
   color: #c8dcba;
 }
@@ -494,7 +497,8 @@ padding: 0 8px 0 2px;
 .composition__link-btn,
 .reviews__link-popub,
 .build__link,
-.certificate__link{
+.certificate__link,
+.mobile_link-btn{
   background-color: #7eb152;
   text-transform: uppercase;
   color:#fff;
@@ -508,7 +512,8 @@ padding: 0 8px 0 2px;
 .composition__link-btn::after,
 .reviews__link-popub::after,
 .build__link::after,
-.certificate__link::after{
+.certificate__link::after,
+.mobile_link-btn::after{
   content: '';
   background-image: url(../images/arrow-right.png);
   width: 31px;
