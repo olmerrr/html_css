@@ -406,6 +406,9 @@ background-color: #f6f9f3;
 padding: 0 8px 0 2px;
 
 }
+.mobile__bg{
+  display: none;
+}
 .list__link {
   display: flex;
   justify-content: flex-end;
@@ -592,7 +595,6 @@ text-transform: uppercase;
   min-height: 620px;
   background-position: center top;
   background-size: cover;
-  
   background-image: url(../images/water.png);
 }
 .quote__wrapper {
