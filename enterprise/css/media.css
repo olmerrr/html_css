@@ -36,7 +36,6 @@
   }
   .services__top{
     display: block;
-   
   }
   .form__box-inner {
     display: block;
@@ -44,7 +43,6 @@
 
   .form__box-left {
     max-width: 100%;
-    
 }
 .form__box-right {
     max-width: 100%;
@@ -90,9 +88,7 @@
   }
   .header__contacts {
     text-align: center;
-    
   }
-  
   .header__btn::before  {
     display: none;
   }
@@ -120,7 +116,6 @@
   background-color: #ffc222;
   border-top:1px solid #fff;
   border-bottom:1px solid #fff;
-  
 }
 .menu li + li {
   padding-left: 0;
@@ -134,7 +129,6 @@
 
 }
 @media (max-width: 640px) {
-  
 .news__blog {
   max-width: 260px;
   width: 100%;
@@ -142,7 +136,6 @@
   }
 }
 @media (max-width:600px){ 
-  
  .services__item {
   max-width: 100%;
   min-height: 375px;
@@ -186,6 +179,9 @@
   }
 }
 @media (max-width: 375px) {
+  .menu a{
+    font-weight: 500;
+  }
   .header__email {
     padding-right: 30px;
     line-height: 20px;
