@@ -29,7 +29,7 @@ body{
 .footer__inner{
   display: flex;
   justify-content: space-between;
-  height: 105px;
+  height: 115px;
   align-items: center;
 }
 
@@ -383,7 +383,7 @@ body{
 .tabs__box .tab:nth-child(2) {
   padding-left: 25px;
 }
-/* .tabs__content-reviews  */
+
 .tabs__reviews {
 padding-bottom:0;
 background-color: #f6f9f3;
