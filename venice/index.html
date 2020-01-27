@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,34 +11,28 @@
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
-
 <body>
   <header class="header">
     <div class="container">
       <div class="header__inner">
-
         <a href="#" class='header__logo' title="Home">
           <img src="img/logo.webp" alt="">
           <div class="header__logo-text">Venice</div>
         </a>
-
-        <div class="header__right-site">
-
-          <div class="search__box">
-            <input type="text">
-            <button type="submit" title="Search" class="search-submit"><span
-                class="icon-f icf-search"></span><span>Search</span></button>
+        <nav class="menu">
+          <div class="menu__btn">
+            <span></span>
           </div>
-          <nav class="menu">
-            <ul class="menu__list">
-              <li><a href="#">News</a></li>
-              <li><a href="#">Politics</a></li>
-              <li><a href="#">Travel</a></li>
-              <li><a href="#">Culture</a></li>
-            </ul>
-          </nav>
-        </div>
+          <ul class="menu__list">
+            <li><a href="#">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#contact">Contact us</a></li>
+          </ul>
+        </nav>
       </div>
+    </div>
+    <div class="container">
       <div class="header-slider">
         <div class="header-slider__item">
           <div class="header-slider__item-content">
@@ -64,7 +57,6 @@
         </div>
         <div class="header-slider__item">
           <div class="header-slider__item-content">
-    
             <div class="header-slider__item-img">
               <img src="img/4.jpg" alt="">
             </div>
@@ -80,13 +72,11 @@
       </div>
     </div>
   </header>
-
-  <section class="news">
+  <section class="news" id="news">
     <div class="news__title">
       WHAT IS VENICE, ITALY?
     </div>
     <div class="container">
-
       <div class="news__inner">
         <div class="news__item">
           <div class="news__item-img">
@@ -147,13 +137,11 @@
       </div>
     </div>
   </section>
-  <article class="article">
+  <article class="article" id="history">
     <div class="news__title">
       HISTORY VENICE
     </div>
     <div class="container">
-
-
       <div class="article__inner">
         <div class="article__img">
           <img src="img/history.webp" alt="">
@@ -171,29 +159,92 @@
             also evolved a darker atmosphere. The city has a history dating from the sixth century, and once wasn't just
             a city in a larger state: Venice was once one of the greatest trading powers in European history. Venice was
             the European end of the Silk Road trade route which moved goods all the way from China, and consequently was
-            a cosmopolitan city, a true melting pot.
+            a cosmopolitan city, a true melting pot.Venice developed a creation myth that it was founded by people
+            fleeing Troy.
+          </div>
+        </div>
+      </div>
+      <div class="article__inner">
+        <div class="article__img--right">
+          <img src="img/history-2.jpg" alt="">
+        </div>
+        <div class="article__text-container article__text-container--left">
+          <div class="article__text-author">
+            Shelley Esaak
+          </div>
+          <div class="article__text-date">
+            January 19, 2020
+          </div>
+          <div class="article__text">
+            Just as with Florence, Venice was a Republic during the Renaissance. Actually, Venice was an empire that
+            controlled land in what is modern day Italy, a whole lot of sea coast down the Adriatic and countless
+            islands. It enjoyed a stable political climate and thriving trade economy, both of which survived outbreaks
+            of the Black Death and the fall of Constantinople (a major trading partner). Venice was, in fact, so
+            prosperous and healthy that it took someone named Napoleon to undo its empire status... but, that was quite
+            a while after the Renaissance had faded away and had nothing to do with art.
           </div>
         </div>
       </div>
     </div>
   </article>
-
-
-
   <section class="subsribe">
-    <div class="subscribe__title">More story?</div>
-    <div class="subscribe__container">
-      <input type="text" class="subsribe-input" placeholder="Your email adress">
-      <button type="submit" title="Subscribe" class="subsribe-btn"><span>subscribe</span></button>
+    <div class="subscribe__inner">
+      <div class="subscribe__title">more stories?</div>
+      <div class="subscribe__container">
+        <input type="text" class="subsribe-input" placeholder="Your email adress">
+        <button type="submit" title="Subscribe" class="subsribe-btn"><span>subscribe</span></button>
+      </div>
     </div>
   </section>
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__item">
+          <div class="footer__title">
+            MAGNA SED FEUGIAT
+          </div>
+          <div class="footer__text">
+            Donec ornare, sem non congue cursus, neque sapien rutrum arcu, sit amet gravida sapien lectus molestie ante.
+            Nam ut purus urna, in lacinia purus. Donec ornare, sem non congue cursus, neque sapien rutrum arcu, sit amet
+            gravida sapien lectus tempus ante. Nam ut purus urna, in lacinia purus Nulla sed dictum neque pulvinar
+            vehicula, orci tellus ornare sapien, a fermentum libero turpis a tortor. Vestibulum ac leo eu sem dolore et
+            sed pharetra urna id mi. Donec ornare, sem non congue cursus, neque sapien rutrum arcu, sit amet gravida
+            sapien lectus tempus ante. Nam ut purus urna, in lacinia purus.
+          </div>
+        </div>
+        <div class="footer__item">
+          <div class="footer__title">
+            Read more
+          </div>
+          <div class="footer__text">
+            <ul>
+              <li><a href="#">Florence</a></li>
+              <li><a href="#">Milan</a></li>
+              <li><a href="#">Turin</a></li>
+              <li><a href="#">Rome</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__item">
+          <div class="footer__title">
+            CONTACT US
+          </div>
+          <div class="footer__text">
+            <ul>
+              <li><a href="#" class="mail">information@untitled.tld</a></li>
+              <li><a href="#" class="twiter">@untitled</a></li>
+              <li><a href="tel:+39041-2748111" class="phone">+39 041-2748111</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      all rights reserved Venice 2020
+    </div>
+  </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/main.js"></script>
-
-
-
-
 </body>
-
 </html>
