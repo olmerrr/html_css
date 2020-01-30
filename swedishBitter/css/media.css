@@ -755,7 +755,8 @@
     margin-bottom: 0;
   }
   .composition__link-btn,
-  .history__form button{
+  .history__form button,
+  .reviews__link-popub{
     text-align: center;
     padding: 20px;
     font-size: 12px;
